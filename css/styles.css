@@ -1,0 +1,646 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+.body{
+    width: 100vw;
+    overflow: hidden;
+}
+
+* {
+    width: auto;
+    font-family: 'Poppins';
+}
+
+section {
+    text-align: center;
+}
+
+.header-nav-container{
+    box-shadow: 0px 3px 59px #04C3FF29;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: #FFFFFF;
+}
+
+.header-nav {
+    width: auto;
+    margin: 0 12.5% 0 17.5%;
+    display: grid;
+    grid-template-columns: 35% auto;
+    align-items: center;
+    padding: .8em 0;
+}
+
+.header-nav .logo {
+    color: #0ABEAD;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-size: 78px;
+    font-weight: 800;
+    text-align: left;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 16px;
+}
+
+.nav-item .active {
+    color: #0ABEAD;
+}
+
+.header-content {
+    margin: 14em 12.5% 0 17.5%;
+    display: grid;
+    grid-template-columns: 40% auto;
+    font-family: 'Poppins';
+}
+
+.content-text {
+    margin: auto 0;
+    text-align: left;
+}
+
+.content-text .author-name{
+    font-size: 28px;
+    color: #0CBFAE;
+    font-weight: 600;
+    margin-bottom: .35em;
+}
+
+.content-text .author-name span {
+    color: #F57F17;
+}
+
+.content-text .author-role{
+    font-size: 50px;
+    color: #0ABEAD;
+    font-weight: 800;
+    margin: .35em 0;
+}
+
+.content-text .author-desc{
+    font-size: 16px;
+    margin: .35em 0 2em 0;
+}
+
+.btn-hireme {
+    background-color: #09BEAD;
+    color: #FFFFFF;
+    box-shadow: 0px 16px 29px #0BBEAD69;
+    font-size: 16px;
+    border: none;
+    border-radius: 2.5em;
+    padding: .8em 3em;
+    margin-right: 2em;
+}
+
+.btn-getresume {
+    background-color: #F57F17;
+    color: #FFFFFF;
+    box-shadow: 0px 16px 28px #F57F173D;
+    font-size: 16px;
+    border: none;
+    border-radius: 2.5em;
+    padding: .8em 3em;
+}
+
+.content-image {
+    filter: drop-shadow(0 0 59px #60E9FF45);
+}
+
+.content-image-circle {
+    background-color: #FFFFFF;
+    padding: 1em;
+    clip-path: circle(40%);
+}
+
+.content-image-circle img {
+    width: 100%;
+    clip-path: circle(39%); 
+}
+
+.wave-img {
+    overflow: hidden;
+}
+
+.wave-img img {
+    position: relative;
+    width: 112.5%;
+    height: auto;
+    left: -4%;
+}
+
+.section-heading {
+    width: auto;
+    text-align: center;
+    display: inline-block;
+    margin: 8em 0 3em 0;
+}
+
+.section-heading h2{
+    font-size: 48px;
+    font-weight: 800;
+    color: #0ABEAD;
+    text-align: center;
+}
+
+.section-heading p{
+    font-size: 16px;
+    color: #333333;
+    padding: 1em 0 2em 0;
+    border-bottom: .15em solid #0ABEAD;
+}
+
+#aboutus .section-heading p {
+    color: #0ABEAD;
+}
+
+.section-heading span {
+    display: inline-block;
+    position: relative;
+    background-color: #0ABEAD;
+    width: 2.5em;
+    height: .7em;
+    border-radius: 2.5em;
+    top: -.55em;
+}
+
+#aboutus .section-content {
+    margin: 0 15% 0 15%;
+    display: grid;
+    grid-template-columns: 50% auto;
+    text-align: left;
+    box-shadow: 0px 0px 59px #60E9FF45;
+}
+
+#aboutus img {
+    width: 100%;
+    height: auto;
+}
+
+#aboutus .section-content .features {
+    padding: 3.5em 2.5em;
+}
+
+#aboutus .features h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333333;
+    padding: 1em 0;
+}
+
+#aboutus .features p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    padding: .5em 0 4em 0;
+    line-height: 1.5em;
+}
+
+#aboutus .features h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #0ABEAD;
+    padding: 1.5em 0;
+}
+
+#aboutus .features li {
+    font-size: 16px;
+    color: #333333;
+    padding: .5em 0;
+}
+
+#aboutus .features ul {
+    padding-bottom: 3em;
+}
+
+#aboutus .features li .dot {
+    display: inline-block;
+    width: .75em;
+    height: .75em;
+    background-color: #F57F17;
+    border-radius: 50%;
+    margin: 0 1em 0 .8em;
+}
+
+#services .section-content {
+    margin: 0 15% 0 15%;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    column-gap: 1.75em;
+    row-gap: 1.75em;
+    color: #FFFFFF;
+}
+
+#services .service {
+    overflow: hidden;
+    position: relative;
+}
+
+#services .service img {
+    position: relative;
+    width: 65px;
+    height: 65px;
+    padding: 5.8em .8em .8em .8em;
+    z-index: 1;
+}
+
+#services .service h4 {
+    position: relative;
+    font-size: 24px;
+    font-weight: 800;
+    padding: .8em;
+    z-index: 1;
+}
+
+#services .service p {
+    position: relative;
+    font-size: 16px;
+    padding: .8em 3.8em 5.8em 3.8em;
+    line-height: 1.5em;
+    z-index: 1;
+}
+
+#services .service > span > img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#services .service1 {
+    background-color: #8540FF;
+    box-shadow: 0px 0px 35px #760DFF59;
+}
+
+#services .service2 {
+    background-color: #FFC50C;
+    box-shadow: 0px 0px 35px #FFC50C59;
+}
+#services .service3 {
+    background-color: #EC407A;
+    box-shadow: 0px 3px 35px #EC407A59;
+}
+
+#services .service4 {
+    background-color: #FF6331;
+    box-shadow: 0px 0px 28px #FF633159;
+}
+
+#services .service5 {
+    background-color: #13B6FF;
+    box-shadow: 0px 0px 35px #13B6FF59;
+}
+
+#services .service6 {
+    background-color: #49AF46;
+    box-shadow: 0px 0px 35px #49AF4659;
+}
+
+#resume .section-content {
+    margin: 0 15% 0 15%;
+    display: grid;
+    grid-template-columns: 33% auto;
+    text-align: left;
+}
+
+#resume .skill-nav {
+    display: grid;
+    grid-template-columns: 15% auto;
+    position: relative;
+    z-index: 0;
+    box-shadow: 0px 0px 59px #60E9FF45;
+}
+
+#resume .skill-nav .side-bar {
+    width: 100%;
+    height: auto;
+    background-color: #0ABEAD;
+}
+
+#resume .skill-list {
+    margin: 2.5em 1.5em 2em 0;
+    position: relative;
+    left: -2.5em;
+    z-index: 1;
+}
+
+#resume .skill-list li{
+    margin: 1em 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#resume .skill-list li img{
+    width: 1.5em;
+    height: 1.5em;
+    padding: .75em 1.5em .75em 0;
+    margin-right: 1em;
+    background-color: #0ABEAD;
+    border-top-right-radius: 2.5em;
+    border-bottom-right-radius: 2.5em;
+}
+
+#resume .skill-list li span {
+    padding: .5em 0;
+    position: relative;
+    top: -1em;
+}
+
+#resume .skill-list .active {
+    background-color: #0ABEAD;
+    border-top-right-radius: 2.5em;
+    border-bottom-right-radius: 2.5em;
+    color: #FFFFFF;
+}
+
+#resume .skill-details {
+    margin: 0 4em;
+    border-left: .16em solid #0ABEAD;
+    padding-left: 2em; 
+    padding-top: 2em;
+    position: relative;
+}
+
+#resume .skill-details .dot{
+    display: inline-block;
+    position: absolute;
+    width: 1.3em;
+    height: 1.3em;
+    background-color: #0ABEAD;
+    border-radius: 50%;
+    left: -.8em;
+    z-index: 1;
+}
+
+#resume .skill-details h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #FF5823;
+    padding-bottom: 1.25em;
+}
+
+#resume .skill-details h4 span {
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #F57F17;
+    float: right;
+    padding: .5em 1em;
+    border-radius: 2.5em;
+}
+
+#resume .skill-details h6 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333333;
+    padding-bottom: 1em;
+}
+
+#resume .skill-details p {
+    font-size: 16px;
+    color: #333333;
+    line-height: 1.5em;
+}
+
+#resume .skill-details div:nth-child(1) p, #resume .skill-details div:nth-child(2) p {
+    padding-bottom: 3em;
+}
+
+#portfolio .section-content {
+    margin: 0 15% 0 15%;
+}
+
+#portfolio .portfolio-content {
+    width: 100%;
+    overflow: hidden;
+}
+
+#portfolio .portfolio-nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 12.5em;
+}
+
+#portfolio .portfolio-nav ul .active {
+    background-color: #0ABEAD;
+    color: #FFFFFF;
+    font-size: 16px;
+    border-radius: 2em;
+    padding: .75em 3em;
+}
+
+#portfolio .portfolio-nav ul a {
+    text-decoration: none;
+    color: #000;
+}
+
+#portfolio .portfolio-content img {
+    width: 116%;
+    height: auto;
+    position: relative;
+    left: -6em;
+}
+
+#portfolio .portfolio-content .circle{
+    display: inline-block;
+    width: .9em;
+    height: .9em;
+    border: .25em solid #BFBEBE;
+    border-radius: 50%;
+    margin: 0 .1em;
+}
+
+#portfolio .portfolio-content .circles .active {
+    border: .25em solid #09BEAD;
+}
+
+#pricing .section-content {
+    margin: 0 15% 0 15%;
+    display: grid;
+    grid-template-columns: 31.75% 31.75% 31.75%;
+    column-gap: 2em;
+}
+
+#pricing .course-details {
+    box-shadow: 0px 0px 59px #60E9FF45;
+}
+
+#pricing .course-price {
+    color: #FFFFFF; 
+    padding: 1em 0 1.5em 0;   
+}
+
+#pricing .course-price h4 {
+    font-size: 36px;
+    font-weight: 600;
+    padding: .4em;
+}
+
+#pricing .course-price p:nth-child(even) {
+    font-size: 24px;
+    font-weight: 600;
+    padding: .4em;
+}
+
+#pricing .course-price p:nth-child(odd) {
+    font-size: 16px;
+    padding: .5em;
+}
+
+#pricing .course1 .course-price{
+    background-color: #FF6331;
+}
+
+#pricing .course2 .course-price{
+    background-color: #803AFB;
+}
+
+#pricing .course3 .course-price{
+    background-color: #F5276C;
+}
+
+#pricing .course-features {
+    padding: 3em 0;
+}
+
+#pricing .course-features-list  {
+    position: relative;
+    left: 28.5%;
+    text-align: left;
+    padding-bottom: 1em;
+}
+
+#pricing .course-features-list li {
+    padding: 1em 0;
+    color: #333333;
+}
+
+#pricing .course-features-list li svg {
+    width: 1.25em;
+    height: 1em;
+    color: #333333;
+    padding-right: 1em;
+}
+
+#pricing .course1 .course-features button{
+    background-color: #F57F17;
+    color: #FFFFFF;
+    box-shadow: 0px 16px 28px #F57F173D;
+    font-size: 16px;
+    border: none;
+    border-radius: 2.5em;
+    padding: 1em 3em;
+}
+
+#pricing .course2 .course-features button{
+    background-color: #803AFB;
+    color: #FFFFFF;
+    box-shadow: 0px 16px 28px #803AFB3D;
+    font-size: 16px;
+    border: none;
+    border-radius: 2.5em;
+    padding: 1em 3em;
+}
+
+#pricing .course3 .course-features button{
+    background-color: #F5276C;
+    color: #FFFFFF;
+    box-shadow: 0px 16px 28px #F5276C3D;
+    font-size: 16px;
+    border: none;
+    border-radius: 2.5em;
+    padding: 1em 3em;
+}
+
+/* #contact {
+    background-color: #FFFFFF;
+    clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 0% 10%);
+} */
+
+#contact .section-content {
+    position: relative;
+}
+
+#contact .map img{
+    width: 100%;
+    height: 53em;
+}
+
+#contact .contact-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 81px #13B6FF3D;
+    padding: 4em 3.5em;
+    width: 25%;
+}
+
+#contact .contact-form form h3 {
+    text-align: left;
+    font-size: 36px;
+    font-weight: 800;
+    color: #0ABEAD;
+    padding-bottom: .5em;
+}
+
+#contact .contact-form form input, #contact .contact-form form textarea  {
+    font-size: 16px;
+    color: #333333;
+    width: 100%;
+    margin: .75em 0; 
+    padding: .75em 0;
+    padding-left: 1em;
+    border: none;
+    box-shadow: 0px 0px 59px #60E9FF45;
+    border-radius: .5em;
+}
+
+#contact .contact-form form input[type="submit"] {
+    background-color: #0ABEAD;
+    color: #FFFFFF;
+    box-shadow: 0px 0px 7px #00000029;
+    border-radius: 2.5em;
+}
+
+footer {
+    margin: 1.5em 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    position: relative;
+    top: .5em;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+footer ul li {
+    padding-left: .5em;
+    color: #333333;
+    display: inline;
+}
+
+footer ul li img, footer ul li svg {
+    padding: 0;
+    width: 2.5em;
+    height: 2.5em;
+}
+
+footer ul li svg  {
+    fill: #0ABEAD;
+}
